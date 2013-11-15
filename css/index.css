@@ -2,16 +2,23 @@ html, body, div, a, ol {
   display: block;
   font-family: "微软雅黑", sans-serif;
 }
+body {
+  background: url('../img/body-bg.jpg') repeat;
+}
 a {
   text-decoration: none;
+}
+.container {
+  width: 1205px;
 }
 
 /* -- header -- */
 #header {
-  height: 178px;
+  height: 150px;
 }
 
 #notice {
+  background: url('../img/top-banner-bg.jpg') repeat-x;
   height: 28px;
   font-size: 14px;
   text-align: right;
@@ -22,42 +29,82 @@ a {
 }
 
 #header_guide {
+  background: url('../img/header-guide-bg.png') no-repeat;
+  width: 499px;
+  height: 76px;
   float: right;
+  margin-top: 50px;
 }
 
 #header_guide li {
   float: left;
-  font-size: 14px;
+  width: 105px;
+  font-size: 13px;
+  margin-top: 34px;
+}
+
+#header_guide .first-two {
+  width: 106px;
+  text-align: center;
+}
+
+#header_guide .last-two {
+  width: 139px;
+  text-align: center;
 }
 
 #header_guide a {
   text-decoration: none;
+  color: #000;
 }
 
 /* -- body -- */
 #guide {
-  height: 65px;
+  background: url('../img/header-bg.jpg') repeat-x;
+  width: 100%;
+  height: 67px;
 }
 
-#guide ul {
-  margin-top: 20px;
+#guide-inner {
+  height: 67px;
 }
 
-#guide li {
+#guide-inner ul {
+}
+
+#guide-inner li {
   float: left;
-  font-size: 20px;
-  margin-right: 10px;
+  margin-top: 10px;
 }
 
-#guide a:hover {
+#guide-inner .text {
+  width: 160px;
+  height: 55px;
+  text-align: center;
+  font-size: 19px;
+  margin-top: 6px;
+}
+
+#guide-inner .text a {
+  margin-top: 17px;
+  color: #fff;
+}
+
+#guide-inner .index {
+  background: url('../img/header-focused.png') no-repeat;
+  background-position: center center;
+  width: 100px;
+}
+
+#guide-inner a:hover {
   text-decoration: none;
 }
 
-#banner {
+#carousel {
   height: 425px;
 }
 
-#banner .item {
+#carousel .item {
   background-color: #777;
   height: 425px;
 }
@@ -79,8 +126,77 @@ a {
   margin-right: auto;
 }
 
+.carousel-indicators .dot {
+  background: url("../img/pic-cell-black.png") no-repeat;
+  background-size: 16px 16px;
+  width: 16px;
+  height: 16px;
+}
+
+.carousel-indicators .active {
+  background: url("../img/pic-cell-white.png") no-repeat;
+  background-size: 16px 16px;
+}
+
+
+.cell-1 {
+  background: url('../img/cells-1-bg.png') no-repeat;
+}
+
+.cell-2 {
+  background: url('../img/cells-2-bg.png') no-repeat;
+}
+
+.cell-1, .cell-2 {
+  background-position: center center;
+}
+
 .mod {
-  height: 300px;
+  height: 302px;
+  margin-top: 60px;
+  padding-top: 40px;
+}
+.mod .sub-title {
+  font-size: 20px;
+}
+.mod .content {
+  font-size: 17px;
+}
+.mod-1 {
+  width: 230px;
+  padding-left: 140px;
+  padding-right: 10px;
+}
+.button-link {
+  background: url('../img/but-bg.png') no-repeat;
+  background-size: 177px 140px;
+  background-position: 0 0;
+  height: 48px;
+  width: 177px;
+  text-decoration: none;
+  font-size: 22px;
+  font-style: bold;
+  font-family: "黑体", sans-serif;
+  color: #fff;
+  text-align: center;
+  padding-top: 22px;
+}
+.button-link:hover {
+  background-position: 0 -70px;
+  text-decoration: none;
+  color: #fff;
+}
+.mod-2 {
+  width: 340px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.mod-2 .title {
+  font-size: 28px;
+}
+.levi {
+  padding-top: 150px;
+  height: 152px;
 }
 
 /* -- footer -- */
@@ -108,15 +224,23 @@ ul, li {
 
 #footer_upper a {
   color: #ffffff;
-  margin-bottom: 10px;
-  font-size: 15px;
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+#footer_upper .footer-mod {
+  width: 251px;
+  padding-right: 40px;
+  padding-left: 10px;
+  float: left;
+  margin-top: 24px; 
 }
 
 #footer_upper hr {
-  margin-top: 6px;
-  margin-bottom: 15px;
-  background-color: #0d3f62;
-  height: 1px;
+  background: url('../img/footer-hehe.png');
+  margin-top: 8px;
+  margin-bottom: 20px;
+  height: 2px;
   border: 0;
 }
 
