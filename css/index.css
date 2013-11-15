@@ -1,0 +1,133 @@
+html, body, div, a, ol {
+  display: block;
+  font-family: "微软雅黑", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+/* -- header -- */
+#header {
+  height: 178px;
+}
+
+#notice {
+  height: 28px;
+  font-size: 14px;
+  text-align: right;
+}
+
+#logo {
+  float: left;
+}
+
+#header_guide {
+  float: right;
+}
+
+#header_guide li {
+  float: left;
+  font-size: 14px;
+}
+
+#header_guide a {
+  text-decoration: none;
+}
+
+/* -- body -- */
+#guide {
+  height: 65px;
+}
+
+#guide ul {
+  margin-top: 20px;
+}
+
+#guide li {
+  float: left;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+#guide a:hover {
+  text-decoration: none;
+}
+
+#banner {
+  height: 425px;
+}
+
+#banner .item {
+  background-color: #777;
+  height: 425px;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-indicators {
+  position: absolute;
+  top: auto;
+  right: auto;
+  left: 50%;
+  bottom: 15px;
+  z-index: 5;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mod {
+  height: 300px;
+}
+
+/* -- footer -- */
+#footer, #footer_upper, #footer_lower {
+  width: 100%;
+}
+
+ul, li {
+  overflow: hidden;
+}
+
+#footer_upper {
+  background-color: #166298;
+  height: 240px;
+}
+
+#footer_upper .span3 {
+  margin-top: 20px;
+}
+
+#footer_upper span {
+  color: #5496c6;
+  font-size: 18px;
+}
+
+#footer_upper a {
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+#footer_upper hr {
+  margin-top: 6px;
+  margin-bottom: 15px;
+  background-color: #0d3f62;
+  height: 1px;
+  border: 0;
+}
+
+#footer_lower {
+  background-color: #0c4a75;
+  height: 110px;
+  color: #ffffff;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+#footer_lower span {
+  float: right;
+}
