@@ -62,6 +62,7 @@ a {
 #guide {
   background: url('../img/header-bg.jpg') repeat-x;
   width: 100%;
+  min-width: 1205px;
   height: 67px;
 }
 
@@ -112,6 +113,7 @@ a {
 .carousel-inner {
   position: relative;
   width: 100%;
+  min-width: 1205px;
   overflow: hidden;
 }
 
@@ -162,6 +164,7 @@ a {
 /* -- footer -- */
 #footer, #footer_upper, #footer_lower {
   width: 100%;
+  min-width: 1205px;
 }
 
 ul, li {
