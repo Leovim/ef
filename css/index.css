@@ -1,10 +1,10 @@
 /* cell settings */
 .cell-1 {
-  background: url('../img/cells-1-bg.png') no-repeat;
+  background: url('../img/index/cells-1-bg.png') no-repeat;
 }
 
 .cell-2 {
-  background: url('../img/cells-2-bg.png') no-repeat;
+  background: url('../img/index/cells-2-bg.png') no-repeat;
 }
 
 .cell-1, .cell-2 {
