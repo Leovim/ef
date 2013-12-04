@@ -73,16 +73,19 @@
   margin-left: 35px;
 }
 
+/* left and right */
 .left, .right {
   float: left;
 }
 
+/* left body */
 .main-body .left {
   width: 400px;
   margin-left: 42px;
   margin-right: 10px;
 }
 
+/* right body */
 .main-body .right {
   width: 384px;
 }
@@ -99,13 +102,3 @@
   float: left;
 }
 
-/* left body */
-
-/* right body */
-.right-headbar li {
-  width: 100px;
-  text-align: center;
-}
-
-.right-content {
-}
