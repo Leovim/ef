@@ -109,7 +109,16 @@
   z-index: 5;
 }
 
+.carousel-1-indicators li {
+  width: 25px;
+  height: 25px;
+  text-indent: 8px;
+  font-size: 14px;
+  color: #fff;
+}
+
 .carousel-1-indicators .btn-con {
+  display: block;
   background: url("../img/trade-info/right-top-num-bg.png") no-repeat;
   background-size: 25px 25px;
   width: 25px;
@@ -119,6 +128,7 @@
 .carousel-1-indicators .active {
   background: url("../img/trade-info/right-top-num-bg-hover.png") no-repeat;
   background-size: 25px 25px;
+  color: #1b71ae;
 }
 
 .carousel-1-indicators .btn-con:hover {
