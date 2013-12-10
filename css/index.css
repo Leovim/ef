@@ -40,3 +40,81 @@
   height: 152px;
 }
 
+.service .btn-service {
+  background: url("../img/index/service-float.png") no-repeat;
+  width: 45px;
+  height: 144px;
+  position: fixed;
+  right: 0px;
+  top: 300px;
+  display: block;
+  z-index: 5;
+}
+
+.ticket {
+  display: none;
+  width: 348px;
+  height: 474px;
+  position: fixed;
+  right: 0;
+  top: 200px;
+  background-color: #e3e3e3;
+  border: 1px #c5c5c5 solid;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  z-index: 5;
+  overflow: hidden;
+}
+
+.ticket #ticket-header {
+  height: 48px;
+  background-color: #336699;
+  font-size: 24px;
+  color: #fff;
+  line-height: 48px;
+  text-align: center;
+}
+
+.ticket form div {
+  height: 30px;
+  margin-top: 23px;
+  overflow: hidden;
+}
+
+.ticket span, .ticket input {
+  float: left;
+}
+
+.ticket span {
+  width: 98px;
+  margin-left: 23px;
+  font-size: 17px;
+  color: #000;
+  line-height: 30px;
+}
+
+.ticket input {
+  width: 194px;
+  /* border: 0; */
+  /* -webkit-box-shadow: none; */
+  /* -moz-box-shadow: none; */
+  /* box-shadow: none; */
+}
+
+.ticket .question-content {
+  width: 293px;
+  height: 150px;
+  margin-top: 23px;
+  margin-left: 23px;
+  resize: none;
+}
+
+.ticket #btn-submit {
+  width: 135px;
+  height: 53px;
+  margin-top: 10px;
+  margin-left: 110px;
+  font-size: 23px;
+  font-style: bold;
+}
