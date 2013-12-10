@@ -1,0 +1,64 @@
+.sidebar-nav hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.sidebar-nav .item {
+  height: 39px;
+  line-height: 39px;
+}
+
+.mod {
+  width: 830px;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border: 1px #c5c5c5 solid;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  overflow: hidden;
+  float: left;
+}
+.category {
+  width: 100%;
+  height: 34px;
+  background-color: #1f79b7;
+  font-size: 16px;
+  color: #fff;
+}
+.category span {
+  padding-left: 9px;
+  padding-top: 9px;
+}
+.mod .news-item {
+  height: 35px;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 10px;
+  padding-bottom: 7px;
+  background-color: #dfdfdf;
+}
+.mod .news-item img, .mod .news-item .cont {
+  float: left;
+}
+.mod .news-item img {
+  margin-right: 7px;
+}
+.mod .news-item .news-title {
+  font-size: 17px;
+  color: #336699;
+}
+.mod .news-item .news-date {
+  font-size: 11px;
+  color: #737373;
+}
+.mod .news-list hr {
+  background: url("../img/trade-platform/right-box-top-divider.png") repeat-x;
+  height: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 0;
+}
+
