@@ -1,0 +1,54 @@
+.date {
+  width: 140px;
+}
+.money {
+  width: 160px;
+}
+.strategy {
+}
+
+/* header */
+.main-body #header {
+  background: url("../img/tech-analyse/right-top-bg.png") repeat-x;
+  height: 47px;
+  width: 100%;
+  font-size: 17px;
+  color: #fff;
+}
+
+.main-body #header th {
+  padding-top: 14px;
+  background-color: transparent;
+  border-top: 0;
+  font-weight: normal;
+}
+
+/* strategy items */
+.main-body .strategy-item {
+  height: 40px;
+}
+
+.main-body .strategy-item .date {
+  font-size: 14px;
+}
+
+.main-body .strategy-item .money img, .main-body .strategy-item .money .metal {
+  float: left;
+}
+
+.main-body .strategy-item .money img {
+  width: 24px;
+  height: 15px;
+  margin-top: 2px;
+}
+
+.main-body .strategy-item .money .metal {
+  margin-left: 14px;
+  margin-right: 14px;
+  font-size: 17px;
+}
+
+.main-body .strategy-item .strategy {
+  font-size: 17px;
+  color: #006699;
+}
