@@ -2,7 +2,7 @@
   width: 1205px;
 }
 
-.left, .middle, .right {
+.left, .middle, .right, .right-lower {
   float: left;
   margin-top: 32px;
   margin-left: 12px;
@@ -88,7 +88,6 @@
 /* middle and right */
 .mod {
   width: 460px;
-  max-height: 572px;
   overflow: hidden;
   margin-bottom: 20px;
   border: 1px #c5c5c5 solid;
@@ -96,6 +95,7 @@
   -moz-border-radius: 5px 5px 5px 5px;
   border-radius: 5px 5px 5px 5px;
   overflow: hidden;
+  float: left;
 }
 .category {
   width: 100%;
@@ -109,7 +109,6 @@
   padding-top: 9px;
 }
 .mod .news-item {
-  width: ;
   height: 35px;
   padding-left: 9px;
   padding-right: 9px;
@@ -137,4 +136,6 @@
   margin-top: 0px;
   margin-bottom: 0px;
   border: 0;
+}
+.mod .right-lower {
 }
