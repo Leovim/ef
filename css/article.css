@@ -1,0 +1,70 @@
+.article {
+  width: 1160px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  background-color: #dbdbdb;
+  border: 1px #c5c5c5 solid;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.content {
+  width: 1000px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.content hr {
+  background: url("../img/trade-platform/right-box-top-divider.png") repeat-x;
+  height: 2px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border: 0;
+}
+
+#title {
+  color: #336699;
+  text-align: center;
+}
+
+#date {
+  margin-top: 15px;
+  font-size: 15px;
+  color: #686868;
+  text-align: center;
+}
+
+#content-inner {
+  font-size: #16px;
+}
+
+.bdsharebuttonbox {
+  width: 140px;
+  float: left;
+}
+
+#page {
+  width: 420px;
+  margin-top: 30px;
+  margin-left: 300px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.prev, .next, #page span, #page a {
+  float: left;
+}
+
+#page span {
+  margin-right: 10px;
+}
+
+.prev, .next {
+  width: 200px;
+}
+
+.prev {
+  margin-right: 20px;
+}
