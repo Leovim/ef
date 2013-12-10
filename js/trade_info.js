@@ -7,5 +7,5 @@ $(document).ready(function(){
     var target = $(this).attr("href");
     $('.part').css("display", "none");
     $('div[id='+target.substr(1)+']').css("display", "block");
-  })
+  });
 });
