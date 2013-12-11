@@ -1,0 +1,52 @@
+#datepicker {
+  /* width: 500px; */
+  /* height: 300px; */
+  margin-top: 30px;
+  float: left;
+}
+
+.main-body {
+  height: auto;
+  overflow: hidden;
+}
+
+.time {
+  width: 75px;
+}
+.money {
+  width: 90px;
+}
+.importance {
+  width: 116px;
+}
+.activity {
+  width: 262px;
+}
+.activity-item .activity {
+  color: #006699;
+}
+.current-value {
+  width: 88px;
+}
+.forecast-value {
+  width: 88px;
+}
+.before-value {
+  width: 50px;
+}
+
+.date td{
+  background-color: #b9b9b9;
+  /* height: 31px; */
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+.activity-item .money span, .activity-item .money img {
+  float: left;
+}
+.activity-item .money img {
+  margin-right: 7px;
+  margin-top: 2px;
+}
