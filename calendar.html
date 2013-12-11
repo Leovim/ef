@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
     <link rel="stylesheet" href="css/jquery-ui-1.10.3.custom.min.css">
     <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/trade_info.css">
-    <link rel="stylesheet" href="css/tech_analyse.css">
     <link rel="stylesheet" href="css/calendar.css">
   </head>
   <body>
@@ -63,36 +61,12 @@
       </ol>
     </div>
     <div id="main" class="container">
-      <div id="datepicker"></div>
-      <div class="main-body">
-        <table class="activity-list table">
-          <tr id="header">
-            <th class="time">时间</th>
-            <th class="money">货币</th>
-            <th class="importance">重要性</th>
-            <th class="activity">活动</th>
-            <th class="current-value">今值</th>
-            <th class="forecast-value">预估</th>
-            <th class="before-value">之前</th>
-          </tr>
-          <tr class="date"><td colspan="7">星期二，12月8日</td></tr>
-          <tr class="activity-item">
-            <td class="time">06:28</td>
-            <td class="money">
-              <img class="money-flag" src="img/tech-analyse/CU.gif" alt="">
-              <span class="money-name">美元</span>
-            </td>
-            <td class="importance">
-              <img class="star" src="img/calendar/star-empty.png" alt="">
-              <img class="star" src="img/calendar/star-empty.png" alt="">
-              <img class="unstar" src="img/calendar/star-empty.png" alt="">
-            </td>
-            <td class="activity">中国出口（年度）</td>
-            <td class="current-value">12.7%</td>
-            <td class="forecast-value">7.0%</td>
-            <td class="before-value">5.6%</td>
-          </tr>
-        </table>
+      <div class="rate">
+        <iframe frameborder="0" scrolling="no" height=146 width="108" allowtransparency="true" marginwidth="0" marginheight="0" src="http://irates.cn.forexprostools.com/index.php?rows=1&bg1=FFFFFF&bg2=F1F5F8&text_color=333333&enable_border=show&border_color=0452A1&header_bg=3366cc&header_text=FFFFFF" align="center"></iframe>
+        <br />
+      </div>
+      <div class="calendar">
+        <iframe src="http://ec.cn.forexprostools.com?columns=exc_flags,exc_currency,exc_importance,exc_actual,exc_forecast,exc_previous&category=_employment,_economicActivity,_inflation,_credit,_centralBanks,_confidenceIndex,_balance,_Bonds&importance=1,2,3&features=datepicker,timezone&countries=37,46,6,110,14,48,32,17,10,60,36,35,72,22,41,25,12,43,5,4,26,11,39,42&calType=week&timeZone=28&lang=6" width="656" height="467" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe>
       </div>
     </div>
     <div id="footer">
@@ -139,8 +113,6 @@
     </div>
     <script src="js/jquery-1.10.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
-    <script src="js/calendar.js"></script>
   </body>
 </html>
 
