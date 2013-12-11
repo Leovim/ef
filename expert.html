@@ -68,20 +68,7 @@
           <input id="search" name="search" type="text">
         </div>
         <div class="lower">
-          <span class="header">中央银行汇率</span>
-          <hr />
-          <ul class="unstyled">
-            <li class="rate-item">
-            <img class="flag" src="img/news/USD.gif" alt="US">
-            <span class="money-name">USD</span>
-            <span class="rate">2.50%</span>
-            </li>
-            <li class="rate-item">
-            <img class="flag" src="img/news/UK.gif" alt="UK">
-            <span class="money-name">AUD</span>
-            <span class="rate">2.50%</span>
-            </li>
-          </ul>
+          <iframe frameborder="0" scrolling="no" height=146 width="227" allowtransparency="true" marginwidth="0" marginheight="0" src="http://irates.cn.forexprostools.com/index.php?rows=2&bg1=FFFFFF&bg2=F1F5F8&text_color=333333&enable_border=show&border_color=0452A1&header_bg=3366cc&header_text=FFFFFF" align="center"></iframe>
         </div>
       </div>
       <div class="middle mod">
@@ -150,8 +137,16 @@
     <script type="text/javascript" charset="utf-8">
       $("#search").keydown(function(e){
         if(e.keyCode == 13 && ($.trim($("#search").val())).length != 0) {
+          googlesearch();
         }
       });
+      function googlesearch() {
+        var search = $("#search").val();
+        var domain = "baidu.com";
+        var site = "pan.baidu.com";
+        var link = "http://www.google.com/search?domains=" + domain + "&sitesearch=" + site + "&q=" + search;
+        window.open(link);
+      }
     </script>
   </body>
 </html>

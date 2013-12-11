@@ -4,7 +4,7 @@
 
 .left, .middle, .right, .right-lower {
   float: left;
-  margin-top: 32px;
+  margin-top: 20px;
   margin-left: 12px;
 }
 
@@ -47,13 +47,9 @@
   box-shadow: none;
 }
 
-.left .lower {
+.left {
   width: 227px;
   margin-top: 20px;
-  border: 1px #c5c5c5 solid;
-  -webkit-border-radius: 5px 5px 5px 5px;
-  -moz-border-radius: 5px 5px 5px 5px;
-  border-radius: 5px 5px 5px 5px;
 }
 .left .rate-item {
   height: 27px;
@@ -83,6 +79,11 @@
   line-height: 17px;
   font-size: 10px;
   color: #000;
+}
+.lower {
+  margin-top: 20px;
+  margin-left: 3px;
+  border: 0;
 }
 
 /* middle and right */
