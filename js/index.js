@@ -12,4 +12,9 @@ $(document).ready(function(){
   $(".ticket").bind("click", function(e){
     e.stopPropagation();
   });
+
+  $("#carousel-top").carousel({
+    interval: 5000
+  });
+  $("#carousel-top").carousel('cycle');
 });

@@ -24,6 +24,15 @@ a {
   text-align: right;
 }
 
+#carousel-top {
+  height: 28px;
+  margin-bottom: 0px;
+}
+
+.carousel-top-inner {
+  margin-top: 2px;
+}
+
 #logo {
   float: left;
 }
